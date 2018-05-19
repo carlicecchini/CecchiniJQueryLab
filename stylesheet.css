@@ -1,0 +1,115 @@
+.table {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: #EEE;
+  display: inline-block;
+  text-align: center;
+  line-height: 55px;
+  position: relative;
+  top: 20px;
+  left: 15px;
+  margin: 3px 3px 3px 3px;
+  padding: 10px 10px 10px 10px;
+}
+
+.table:hover {
+  background-color: #ADAAAA;
+  cursor: pointer;
+}
+
+.seatingChart {
+  background-color: white;
+  margin: auto;
+  width: 300px;
+  height: 300px;
+  box-shadow: 0px 0px 31px 1px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+
+.newRes {
+  background-color: white;
+  height: 350px;
+  width: 350px;
+  box-shadow: 0px 0px 31px 1px rgba(0, 0, 0, 0.3);
+  margin: auto;
+  border-radius: 5px;
+  display: none;
+  position: relative;
+  bottom: 300px;
+}
+
+body {
+  background-color: rgb(238, 221, 221);
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h1, h3 {
+  font-family: 'Rubik', sans-serif;
+  color: #E34E45;
+  font-weight: normal, 900;
+}
+
+h2, h4, .table, .field {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.field {
+  padding-bottom: 15px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: solid;
+  border-width: 1.5px;
+  border-color: #EEE;
+  width: 290px;
+  margin-left: 10px;
+}
+
+.submit, .button {
+  background-color: #008000;
+  color: white;
+  display: flex;
+  margin: auto;
+}
+
+.button {
+  border-style: none;
+}
+
+.submit {
+  box-shadow: 0px 5px 15px 1px rgba(0, 0, 0, 0.3);
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 10px;
+  height: 30px;
+}
+
+.reserved {
+  background-color: #ADAAAA;
+  cursor: not-allowed;
+}
+
+.material-icons {
+  cursor: default;
+  position: relative;
+  left: 300px;
+  top: 5px;
+}
+
+.popUp {
+  border: solid;
+  top: 40px;
+  font-size: 10px;
+  background-color: #696969;
+  color: black;
+  border-radius: 15%;
+  line-height: 25px;
+  z-index: 1;
+  width: 175px;
+  height: 50px;
+  position: absolute;
+}

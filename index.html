@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <link href="stylesheet.css" type="text/css" rel="stylesheet">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+  <div>
+    <h1> Table Finder </h1>
+  </div>
+  <div>
+    <h2> Pick your table now </h2>
+  </div>
+  <div class='seatingChart'>
+    <div id='1' class='table'> 1 </div>
+    <div id='2' class='table'> 2 </div>
+    <div id='3' class='table'> 3 </div><br>
+    <div id='4' class='table'> 4 </div>
+    <div id='5' class='table'> 5 </div>
+    <div id='6' class='table'> 6 </div><br>
+    <div id='7' class='table'> 7 </div>
+    <div id='8' class='table'> 8 </div>
+    <div id='9' class='table'> 9 </div>
+  </div>
+  <div>
+    <form class='newRes'>
+      <h3> New Reservation</h3>
+      <i class="material-icons">close</i>
+      <h4> Table Number: </h4><br>
+      <input class='field' id='customer' type="text" placeholder="name"><br>
+      <input class='field' type="text" placeholder="phone"><br>
+      <input class='field' type="text" id='partySize' placeholder="number in party"><br>
+      <div class='submit'><input class='button' type="button" value="SAVE"></div>
+  </div>
+</body>
+<script src="jquery-3.3.1.js"></script>
+<script src="index.js"></script>
+
+</html>
